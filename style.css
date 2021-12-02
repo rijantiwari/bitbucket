@@ -1,3 +1,75 @@
-h1{
-    color:blue;
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    position: absolute;
+    height:100vh;
+    width:100%;
+}
+
+.leftPage{
+    position:relative;
+    background: #0747A6;
+    height:100vh;
+    width:304px;
+}
+
+.leftPage h1{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: 100;
+    font-size: 1.6em;
+    right:-93px;
+    top:-10px;
+}
+
+.leftPage img{
+    position: relative;
+    height: 35px;
+    top:26px;
+    left:15px;
+}
+
+.leftPage ul a{
+    position: relative;
+    display: block;
+    top:2px;
+    left:8px;
+    margin:16px;
+    
+}
+
+.leftPage a{
+    position: relative;
+    color:#fff;
+    top:68px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.leftPage a li{
+    position: relative;
+    margin:10px;
+}
+
+.leftPage #sideOptions a{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top:-64px;
+    left:75px;
+    font-weight:100 ;
+    margin:21px;
+    font-size: 16px;
+}
+
+.leftPage #sideOptions span{
+    color:#0747A6;
+}
+
+.leftPage #downOptions{
+    position: relative;
+    top:158px;
 }
